@@ -33,7 +33,8 @@ Bu repo Patika SQL Dersi kapsamında hazırlanan ödevleri içermektedir.
 
    ```
 
-   
+## SQL ÖDEV 2
+
 
 
    
