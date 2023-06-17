@@ -70,11 +70,11 @@ Bu repo Patika SQL Dersi kapsamında hazırlanan ödevleri içermektedir.
    ```
 2.  **country** tablosunda bulunan **country** sütunundaki ülke isimlerinden en az 6 karakterden oluşan ve sonu 'n' karakteri ile sonlananları sıralayınız.
 
-   ```
-   SELECT * FROM country
-   WHERE country LIKE '____%_n';
+    ```
+    SELECT * FROM country
+    WHERE country LIKE '____%_n';
 
-   ```
+    ```
 3. **film** tablosunda bulunan **title** sütunundaki film isimlerinden en az 4 adet büyük ya da küçük harf farketmesizin 'T' karakteri içeren film isimlerini 
    sıralayınız.
 
