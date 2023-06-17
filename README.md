@@ -89,7 +89,7 @@ Bu repo Patika SQL Dersi kapsamında hazırlanan ödevleri içermektedir.
     ```
     SELECT * FROM film
     WHERE title LIKE 'C%'
-    AND length > 90 AND rental_rate = 2.99
+    AND length > 90 AND rental_rate = 2.99;
 
     ```
    
