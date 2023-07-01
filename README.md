@@ -225,7 +225,7 @@ Bu repo Patika SQL Dersi kapsamında hazırlanan ödevleri içermektedir.
     
     ```
    
-## SQL Ödev 4
+## SQL Ödev 8
 
 1. **test** veritabanınızda **employee** isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
 
@@ -352,6 +352,34 @@ Bu repo Patika SQL Dersi kapsamında hazırlanan ödevleri içermektedir.
      WHERE id = 29;
     
     ```
+    
+## SQL Ödev 9
+
+1. **city** tablosu ile **country** tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
+
+   ```
+    SELECT city.city, country.country FROM city
+    INNER JOIN country ON city.country_id = country.country_id;
+
+    ```
+2. **customer** tablosu ile **payment** tablosunda bulunan payment_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER 
+    JOIN sorgusunu yazınız.
+
+    ```
+     SELECT payment.payment_id, customer.first_name, customer.last_name FROM customer
+     INNER JOIN payment ON payment.customer_id = customer.customer_id;
+
+    ```
+3. **customer** tablosu ile **rental** tablosunda bulunan rental_id ile customer tablosundaki first_name ve last_name isimlerini birlikte görebileceğimiz INNER 
+   JOIN sorgusunu yazınız.
+
+   ```
+     SELECT rental.rental_id, customer.first_name, customer.last_name FROM customer
+     INNER JOIN rental ON rental.customer_id = customer.customer_id;
+
+    ```
+
+   
 
 
    
